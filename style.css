@@ -1,13 +1,29 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(./wallpaper.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+img .ios {
+    width: 200px;
+    height: 200px;
+}
 
+img {
+    width: 160px;
+    height: 160px;
+    align-items: center;
+    margin-top: 55px;
+}
 h1 {
     font-size: 150px;
-    color: #ffbd39;
+    color: #d92027;
     margin: 30px;
     text-align: center;
 }
@@ -19,10 +35,30 @@ h2 {
      color: #e61c5d;   
 }
 
-h3 {
-    color: white;
-    margin-left: 30px;
-    margin-right: 30px;
+  
+
+.leo2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+p {
+    color: #26001b;
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 55px;
+    width: 700px;
+    text-align:justify
+}
+
+.screen-image {
+    width: 340px;
+    height: 661px;
+    margin-right: 100px;
+margin-top: -25px;
+    
 }
 
 button {
