@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName 'Protected Area'
+AuthUserFile C:\Users\IT\Desktop\screentime\.htpasswd
+Require valid-user
