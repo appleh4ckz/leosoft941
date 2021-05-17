@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 150px;
+    color: #ffbd39;
+    margin: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+     color: #e61c5d;   
+}
+
+h3 {
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+button {
+    display: block;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    border: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;   
+   
+}
+
+.leo {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.leoo {
+    margin-left: 30px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+
+.leooo {
+    background-color:#00adb5
+}
